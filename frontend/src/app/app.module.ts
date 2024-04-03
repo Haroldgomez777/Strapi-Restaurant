@@ -11,7 +11,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { IntroComponent } from './intro/intro.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ImageSliderComponent } from './home/image-slider/image-slider.component';
@@ -24,6 +23,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     IntroComponent,
     MenuComponent,
     AboutComponent,
-    ContactComponent,
     NavbarComponent,
     ImageSliderComponent,
     HeroImageComponent,
@@ -40,6 +39,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AccordionComponent,
     FooterComponent,
     ContactUsComponent,
+    RestaurantsComponent,
   ],
   imports: [
     BrowserModule,
