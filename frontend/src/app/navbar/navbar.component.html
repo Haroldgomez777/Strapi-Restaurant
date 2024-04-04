@@ -1,6 +1,11 @@
 <mat-toolbar color="primary">
-  <img src="{{logoUrl}}" alt="Logo" class="logo">
-  <span class="site-title">{{headerData?.data?.attributes?.SiteTitle}}</span>
+  <a routerLink="/" class="no-underline">
+    <div class="flex-container">
+      <img src="{{logoUrl}}" alt="Logo" class="logo">
+      <span class="site-title">{{headerData?.data?.attributes?.SiteTitle}}</span>
+    </div>
+  </a>
+  
   <span class="spacer"></span>
   <button mat-button routerLink="/">Home</button>
   <button mat-button routerLink="/about">About</button>
